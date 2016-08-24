@@ -78,7 +78,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   # Added per devise installation instructions
-  config.action_mailer.default_url_options = { host: 'https://pinterestedxst.herokuapp.com/'}
+  config.action_mailer.default_url_options = { host: 'https://pinterestxst.herokuapp.com/'}
   
   config.paperclip_defaults = {
   storage: :s3,
